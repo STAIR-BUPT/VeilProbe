@@ -17,13 +17,8 @@ It consists of three modules:
 
 ## 💻 Reproduce our work
 
-> We have uploaded the trained mapping model and the perturbed mapping model for direct reproduction on BookTection-128. 
 
-```python
-python run_protonet_classifier.py
-```
-
-> To reproduce results on other datasets, please first run the following command to generate the prefix-suffix pairs and perturbed prefix-suffix pairs.
+To reproduce results, you'll need to first run the following command to generate the prefix-suffix pairs and perturbed prefix-suffix pairs.
 >
 > ```python
 > python sampling_close_sourced_LLM.py #obtaining generated pairs
@@ -38,6 +33,12 @@ python run_protonet_classifier.py
 >
 >  under the key_perturb directory.
 
+> The trained mapping model and the perturbed mapping model can be obtained by mappingmodel.py above mentioned
+>
+>  Finally, run the following command. 
 
+```python
+python run_protonet_classifier.py
+```
 
 ## Citation
