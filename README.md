@@ -8,7 +8,10 @@
 >
 > We propose VeilProbe, the framework for automatically detecting LLMs' pre-training texts in a black-box setting without human intervention. 
 >
-> <img src="/Users/mihuhu/Library/Application Support/typora-user-images/image-20250515040834089.png" alt="image-20250515040834089" style="zoom:80%;" />
+<div align="center">
+<img src="./figure/framework.jpg" style="width: 80%; height: auto;">
+</div>
+
 
 It consists of three modules: 
  (a) The text-to-suffix sampling module generates text-to-suffix pairs; (b) The membership feature inference module infers membership features with a sequence-to-sequence model based on the above pairs; (c) The prototype-based classifier is trained based on the features from ground-truth samples, and then the pre-training and non-training prototypes are constructed. The first two modules prepare the membership feature inference stage for the texts to be detected, and the third one trains a membership classifier for detection.
