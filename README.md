@@ -6,7 +6,7 @@
 
 > This is the code for the paper.
 >
-> We propose VeilProbe, the framework for automatically detecting LLMs' pre-training texts in a black-box setting without human intervention. 
+> We propose the VeilProbe framework to automatically detect LLMs' pre-training texts in a black-box setting without human intervention. 
 >
 <div align="center">
 <img src="./figure/framework.jpg" style="width: 80%; height: auto;">
