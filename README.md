@@ -31,7 +31,7 @@ To reproduce results, you'll need to first run the following command to generate
 > To obtain the perturbed version, run 
 >
 > ```python
-> keyperturb_agg.py
+> python keyperturb_agg.py
 > ```
 >
 >  under the key_perturb directory.
